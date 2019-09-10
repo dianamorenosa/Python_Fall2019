@@ -11,9 +11,9 @@ int(years)
 
 initial_pop=307357870
 int(initial_pop)
-births=(86400*7)*365 #Number of births in one year
-immigrants=(86400*35)*365 #Number of immigrants in one year
-death=(86400*13)*365 #Number of deaths in one year
+births=(86400/7)*365 #Number of births in one year
+immigrants=(86400/35)*365 #Number of immigrants in one year
+death=(86400/13)*365 #Number of deaths in one year
 
 final_pop=initial_pop+((births+immigrants)-death)*years
 int(final_pop)
