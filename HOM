@@ -26,7 +26,7 @@ SEQUENCE= ''.join(random.choice(BASES) for i in range(TOTAL))
 SEQCHUNK= [SEQUENCE[i:i+SHORT] for i in range(0, len(SEQUENCE),SHORT)]  
 
 
-def.gccont(sequence)
+def.gccont(SEQCHUNK)
 
 countG=SEQCHUNK.count ("G")
 countC=	SEQCHUNK.count ("C") 
