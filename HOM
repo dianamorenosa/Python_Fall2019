@@ -33,7 +33,7 @@ countC=	SEQCHUNK.count ("C")
 
 GCCOUNT= SEQCHUNK.count ("G") + SEQCHUNK.count("C")
 	for seq in SEQCHUNK:
-		GC=countG + countC
+		GC=(countG + countC)/TOTAL
 	return (GC)
 
 
